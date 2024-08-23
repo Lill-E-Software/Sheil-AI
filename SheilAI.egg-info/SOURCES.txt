@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+SheilAI.egg-info/PKG-INFO
+SheilAI.egg-info/SOURCES.txt
+SheilAI.egg-info/dependency_links.txt
+SheilAI.egg-info/requires.txt
+SheilAI.egg-info/top_level.txt
+Sheilai/__init__.py
+Sheilai/main.py
+Sheilai/train.py
