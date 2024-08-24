@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sheila_ai',
-    version='0.1.1',
+    version='0.1.2',
     author='jackfhession',
     author_email='',  # Replace with your email
     description='Toolkit for building Pytorch Classifiers.',
