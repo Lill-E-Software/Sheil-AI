@@ -58,13 +58,8 @@ def load_data(datafile):
     return data["input_size"], data["hidden_size"], data["output_size"], data['all_words'], data['tags'], data['model_state']
 
 def get_device():
-    if torch.cuda.is_available():
-        device = torch.device('cuda')
-        print("Cuda.")
-    else:
-        print("CPU.")
-        device = torch.device('cpu')
-    
+    print("CPU.")    
+    device = torch.device('cpu')
     return device
 
 def get_intents(path):
